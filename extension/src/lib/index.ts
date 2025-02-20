@@ -1,10 +1,12 @@
+import "base"
+
 export {}
 
 export interface WidgetProps<V> {
   value: V
 }
 
-declare module './index.js' {
+declare module 'base' {
   interface ComponentProps {
     text: WidgetProps<string>
   }

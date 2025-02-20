@@ -28,7 +28,8 @@
 		}
 	},
 	"dependencies": {
-		"base": "^0.0.1"
+		"base": "^0.0.1",
+		"extension": "^0.0.1"
 	},
 	"peerDependencies": {
 		"svelte": "^5.0.0"

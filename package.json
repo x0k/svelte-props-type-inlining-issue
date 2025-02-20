@@ -10,6 +10,7 @@
   "description": "",
   "workspaces": [
     "base",
+    "extension",
     "impl"
   ]
 }
